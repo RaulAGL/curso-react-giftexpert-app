@@ -1,7 +1,9 @@
 
 import React from 'react';
 
-const GiftGridItem = ({title,url, id}) => {
+import {PropTypes} from 'prop-types';
+
+const GiftGridItem = ({title,url}) => {
 
     return (
         <>
@@ -13,5 +15,10 @@ const GiftGridItem = ({title,url, id}) => {
     );
 }
 
+
+GiftGridItem.propTypes = {
+    title : PropTypes.string.isRequired,
+    url : PropTypes.string.isRequired
+}
 
 export default GiftGridItem;

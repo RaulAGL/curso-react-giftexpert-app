@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probar componente <GiftGrid /> Probar el snapshot del componente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__backInLeft"
+  >
+    Video Games
+  </h3>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Probar componente <GiftGrid /> debe de mostrar items cuando cargue el useFetch 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__backInLeft"
+  >
+    Video Games
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GiftGridItem
+      id="MyImage"
+      key="MyImage"
+      title="MyTitle"
+      url="https//:domain/test.jpg"
+    />
+    <GiftGridItem
+      id="MyImage2"
+      key="MyImage2"
+      title="MyTitle"
+      url="https//:domain/test.jpg"
+    />
+  </div>
+</Fragment>
+`;
